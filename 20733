@@ -1,0 +1,15 @@
+public class Accumulator{
+	private int sum;
+
+	public Accumulator(int s){
+		sum = s;
+	}
+	
+	public int getSum(){
+		return sum;	
+	}
+
+	public void add(int toAdd){
+		sum += toAdd;	
+	}
+}
