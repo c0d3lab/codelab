@@ -1,0 +1,3 @@
+public Clock(){
+	hours = 12;
+}
