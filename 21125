@@ -1,0 +1,22 @@
+public class ApartmentBuilding extends Building{
+	
+private int numFloors, unitsPerFloor;
+private boolean hasElevator, hasCentralAir;
+private String managingCompany;
+	
+	public ApartmentBuilding(int nFloors, int units, boolean elevator, boolean centralAir, String mngCompany){
+		numFloors = nFloors;
+		unitsPerFloor = units;
+		hasElevator = elevator;
+		hasCentralAir = centralAir;
+		managingCompany = mngCompany;
+	}
+	
+	public int getTotalUnits(){
+		return unitsPerFloor;	
+	}
+	
+	public boolean isLuxuryBuilding(){
+		return (hasCentralAir && hasElevator && (unitsPerFloor < 3));	
+	}
+}
