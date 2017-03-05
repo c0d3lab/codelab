@@ -1,0 +1,3 @@
+public String toString(){
+	return ("A " + width + "x" + height + " window at (" + xPos + "," + yPos + ")");	
+}
