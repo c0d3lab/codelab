@@ -1,0 +1,6 @@
+public ApartmentBuilding(Address addr, int sqFt, int ttlUnits){
+
+	super(addr, sqFt);
+	totalUnits = ttlUnits;	
+
+}
